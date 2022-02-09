@@ -38,6 +38,7 @@ const Pengantaran = () => {
   return (
     <div>
       <CallDriver
+        title={"Telfon Customer?"}
         callDriver={callDriver}
         handleCloseDriver={handleCloseDriver}
       />
@@ -236,11 +237,7 @@ const Pengantaran = () => {
             ) : Order.data.orderFound === "get" ? (
               <div className="flex items-center gap-x-2">
                 <div>
-                  <button
-                    onClick={() =>
-                      router.push("../hubungi-customer", "../hubungi-customer")
-                    }
-                  >
+                  <button onClick={handleOpenDriver}>
                     <svg
                       width="32"
                       height="32"

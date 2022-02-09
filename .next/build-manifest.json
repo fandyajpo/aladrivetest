@@ -1,332 +1,49 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-5cd94c89d3acac5f.js"
+    "static/chunks/polyfills.js"
   ],
-  "devFiles": [],
-  "ampDevFiles": [],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
+  "ampDevFiles": [
+    "static/chunks/webpack.js",
+    "static/chunks/amp.js"
+  ],
   "lowPriorityFiles": [
-    "static/PSUy9pt2-CdfNJ2W_aigL/_buildManifest.js",
-    "static/PSUy9pt2-CdfNJ2W_aigL/_ssgManifest.js",
-    "static/PSUy9pt2-CdfNJ2W_aigL/_middlewareManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js",
+    "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/index-c06a2234539fce36.js"
-    ],
     "/_app": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/css/97c17820dc54d0aa.css",
-      "static/chunks/pages/_app-d6d5108ae6746382.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
     ],
     "/_error": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/_error-25839e52160ad85d.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
     ],
     "/auth": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/3253-475ff3c8921b3ccd.js",
-      "static/chunks/7195-0c192ca490e9603f.js",
-      "static/chunks/pages/auth-a534e067f3b8c3dd.js"
-    ],
-    "/auth/chat-customer": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/5675-7de82e14a9e74f24.js",
-      "static/chunks/1472-41ff88526b721394.js",
-      "static/chunks/6215-1424ce6b31f99c82.js",
-      "static/chunks/pages/auth/chat-customer-6938b394cae5bab6.js"
-    ],
-    "/auth/data-bank": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/5675-7de82e14a9e74f24.js",
-      "static/chunks/pages/auth/data-bank-c3f89f9771a9642b.js"
-    ],
-    "/auth/data-diri": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/5675-7de82e14a9e74f24.js",
-      "static/chunks/pages/auth/data-diri-9c2d87d2bcd6fa32.js"
-    ],
-    "/auth/hubungi-customer": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/auth/hubungi-customer-fcdcf1a0bae5052b.js"
-    ],
-    "/auth/onboard": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/1472-41ff88526b721394.js",
-      "static/chunks/pages/auth/onboard-2e177f20c3fab80c.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/auth.js"
     ],
     "/auth/order": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/3253-475ff3c8921b3ccd.js",
-      "static/chunks/7195-0c192ca490e9603f.js",
-      "static/chunks/pages/auth/order-735d1e82ddcd0336.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/auth/order.js"
     ],
     "/auth/order/home-semua-proses": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/3253-475ff3c8921b3ccd.js",
-      "static/chunks/1472-41ff88526b721394.js",
-      "static/chunks/1193-5f804e8b92827c62.js",
-      "static/chunks/7195-0c192ca490e9603f.js",
-      "static/chunks/pages/auth/order/home-semua-proses-d87f4075fe99a31b.js"
-    ],
-    "/auth/otp": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/auth/otp-e4e62634c9def71a.js"
-    ],
-    "/auth/outlet": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/3253-475ff3c8921b3ccd.js",
-      "static/chunks/5675-7de82e14a9e74f24.js",
-      "static/chunks/7195-0c192ca490e9603f.js",
-      "static/chunks/pages/auth/outlet-f0eae27f921fe0d8.js"
-    ],
-    "/auth/outlet/add-partner": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/3253-475ff3c8921b3ccd.js",
-      "static/chunks/5675-7de82e14a9e74f24.js",
-      "static/chunks/7195-0c192ca490e9603f.js",
-      "static/chunks/pages/auth/outlet/add-partner-2076622e984398cd.js"
-    ],
-    "/auth/outlet/batal-partneran": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/3253-475ff3c8921b3ccd.js",
-      "static/chunks/5675-7de82e14a9e74f24.js",
-      "static/chunks/pages/auth/outlet/batal-partneran-2b064e5007e12763.js"
-    ],
-    "/auth/outlet/location": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/auth/outlet/location-49e0bbbc7767c71c.js"
-    ],
-    "/auth/outlet/location-map": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/5675-7de82e14a9e74f24.js",
-      "static/chunks/1472-41ff88526b721394.js",
-      "static/chunks/pages/auth/outlet/location-map-085df0986332f32c.js"
-    ],
-    "/auth/outlet/menunggu-persetujuan": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/5675-7de82e14a9e74f24.js",
-      "static/chunks/pages/auth/outlet/menunggu-persetujuan-3322039295fa0e04.js"
-    ],
-    "/auth/outlet/permintaan-bergabung": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/3253-475ff3c8921b3ccd.js",
-      "static/chunks/5675-7de82e14a9e74f24.js",
-      "static/chunks/pages/auth/outlet/permintaan-bergabung-6c8f2507bfdd0efd.js"
-    ],
-    "/auth/outlet/profile-outlet": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/3253-475ff3c8921b3ccd.js",
-      "static/chunks/5675-7de82e14a9e74f24.js",
-      "static/chunks/5988-78f0afebe0c82485.js",
-      "static/chunks/pages/auth/outlet/profile-outlet-3744c0e27c97e244.js"
-    ],
-    "/auth/outlet/riwayat-antar": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/3253-475ff3c8921b3ccd.js",
-      "static/chunks/7195-0c192ca490e9603f.js",
-      "static/chunks/3868-153aaeec8eeaaeb8.js",
-      "static/chunks/pages/auth/outlet/riwayat-antar-146bf9e970a4f67d.js"
-    ],
-    "/auth/pin": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/auth/pin-a9a68abc59ad6eae.js"
-    ],
-    "/auth/profile": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/3253-475ff3c8921b3ccd.js",
-      "static/chunks/5675-7de82e14a9e74f24.js",
-      "static/chunks/7195-0c192ca490e9603f.js",
-      "static/chunks/pages/auth/profile-7d80632354d7b9b6.js"
-    ],
-    "/auth/profile/bank-option": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/auth/profile/bank-option-4d9a2d69d453fbfc.js"
-    ],
-    "/auth/profile/loading-ubah-rekening": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/auth/profile/loading-ubah-rekening-805cb7de8950bd01.js"
-    ],
-    "/auth/profile/pin": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/auth/profile/pin-048c3b1b94f17740.js"
-    ],
-    "/auth/profile/pin-ganti-rekening": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/1472-41ff88526b721394.js",
-      "static/chunks/pages/auth/profile/pin-ganti-rekening-8eb1859b237a80a3.js"
-    ],
-    "/auth/profile/pin-penarikan": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/auth/profile/pin-penarikan-dcfade31f496a7b0.js"
-    ],
-    "/auth/profile/profile-outlet": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/3253-475ff3c8921b3ccd.js",
-      "static/chunks/5675-7de82e14a9e74f24.js",
-      "static/chunks/5988-78f0afebe0c82485.js",
-      "static/chunks/pages/auth/profile/profile-outlet-eb3ccb5c31d160f0.js"
-    ],
-    "/auth/profile/reset-pin": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/auth/profile/reset-pin-3fb23df10e221767.js"
-    ],
-    "/auth/profile/reset-pin-otp": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/auth/profile/reset-pin-otp-b8d79f9fd4b5d108.js"
-    ],
-    "/auth/profile/riwayat-penarikan": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/auth/profile/riwayat-penarikan-535d3e3acf659b4e.js"
-    ],
-    "/auth/profile/saldo": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/auth/profile/saldo-c4ab301eacc17c64.js"
-    ],
-    "/auth/profile/tarik-saldo": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/auth/profile/tarik-saldo-37253ff1138106bd.js"
-    ],
-    "/auth/profile/ubah-pin": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/auth/profile/ubah-pin-5f58f54a42548050.js"
-    ],
-    "/auth/profile/ubah-rekening": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/auth/profile/ubah-rekening-6ee447d6bcc5abc5.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/auth/order/home-semua-proses.js"
     ],
     "/auth/riwayat": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/3253-475ff3c8921b3ccd.js",
-      "static/chunks/7195-0c192ca490e9603f.js",
-      "static/chunks/3868-153aaeec8eeaaeb8.js",
-      "static/chunks/pages/auth/riwayat-f0c33a29ee2be3b7.js"
-    ],
-    "/auth/riwayat/detail": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/3253-475ff3c8921b3ccd.js",
-      "static/chunks/pages/auth/riwayat/detail-c0f67ce5adff51df.js"
-    ],
-    "/auth/riwayat/testing": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/5675-7de82e14a9e74f24.js",
-      "static/chunks/1472-41ff88526b721394.js",
-      "static/chunks/1193-5f804e8b92827c62.js",
-      "static/chunks/pages/auth/riwayat/testing-c6068e41fa80d3ab.js"
-    ],
-    "/unauth": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/1472-41ff88526b721394.js",
-      "static/chunks/pages/unauth-b96e5621d8c1b984.js"
-    ],
-    "/unauth/daftar": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/3253-475ff3c8921b3ccd.js",
-      "static/chunks/1472-41ff88526b721394.js",
-      "static/chunks/6679-74650cdcac46ad36.js",
-      "static/chunks/pages/unauth/daftar-cfee306dabac22dd.js"
-    ],
-    "/unauth/kirim-otp": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/pages/unauth/kirim-otp-1d1a3be6cd977aad.js"
-    ],
-    "/unauth/login": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/1472-41ff88526b721394.js",
-      "static/chunks/pages/unauth/login-36bf3f7cb4cb47ae.js"
-    ],
-    "/unauth/proses-verif": [
-      "static/chunks/webpack-86f4a85e96be4511.js",
-      "static/chunks/framework-7d488969745094b0.js",
-      "static/chunks/main-6c222a92641cb1be.js",
-      "static/chunks/1472-41ff88526b721394.js",
-      "static/chunks/pages/unauth/proses-verif-fd93dddbcd70e726.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/auth/riwayat.js"
     ]
   },
   "ampFirstPages": []
