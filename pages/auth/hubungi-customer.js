@@ -41,7 +41,7 @@ const HubungiDriver = () => {
           </div>
           <div className="text-center space-y-4">
             <div>
-              <p className="text-2xl font-bold">Kontol</p>
+              <p className="text-2xl font-bold">Fandi</p>
             </div>
             <div>
               <p className="text-lg text-custom-gray">Memanggil...</p>
