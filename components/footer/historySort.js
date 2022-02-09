@@ -260,7 +260,12 @@ const HistorySorting = (props) => {
                   </div>
                 </div>
                 <div>
-                  <button onClick={() => props.setSearch(false)}>
+                  <button
+                    onClick={() => {
+                      props.setSearch(false);
+                      props.setText("");
+                    }}
+                  >
                     <p className="text-custom-red">Batal</p>
                   </button>
                 </div>

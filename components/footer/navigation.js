@@ -2,10 +2,12 @@ import { useRouter } from "next/router";
 
 //CONTEXT
 import { DriverType } from "context/driverType";
+import { ButtonType } from "context/buttonType";
 import { useContext, useEffect } from "react";
 
 const Pengantaran = () => {
   const Driver = useContext(DriverType);
+  const Types = useContext(ButtonType);
   const router = useRouter();
 
   useEffect(() => {
@@ -17,7 +19,29 @@ const Pengantaran = () => {
         <div className="flex items-center w-full h-full">
           <div className="flex justify-around items-center w-full">
             <div>
-              <button onClick={() => router.push("/auth", "/auth")}>
+              <button
+                onClick={
+                  Types.data.type === "option"
+                    ? () => router.push("/auth/order", "/auth/order")
+                    : Types.data.type === "pick-up" ||
+                      Types.data.type === "input-pin" ||
+                      Types.data.type === "sampai" ||
+                      Types.data.type === "selesai" ||
+                      Types.data.type === "done"
+                    ? () =>
+                        router.push(
+                          "/auth/order/home-semua-proses",
+                          "/auth/order/home-semua-proses"
+                        )
+                    : () => router.push("/auth", "/auth")
+                }
+                // Types.data.type === "input-pin" ||
+                // Types.data.type === "pick-up" ||
+                // Types.data.type === "input-pin" ||
+                // Types.data.type === "sampai" ||
+                // Types.data.type === "selesai" ||
+                // Types.data.type === "done"
+              >
                 <svg
                   width="48"
                   height="43"

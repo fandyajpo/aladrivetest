@@ -57,11 +57,14 @@ const Pengantaran = ({ CloseDetail }) => {
         pickUp={pickUp}
         handleClosePickup={handleClosePickup}
       />
-      {Types.data.type === "option" ? (
+      {Types.data.type === "option" &&
+      !router.asPath.includes("riwayat") &&
+      !router.asPath.includes("outlet") &&
+      !router.asPath.includes("profile") ? (
         <div className="relative">
           <div className="fixed bottom-20 w-full h-20 bg-custom-bg bg-opacity-70 backdrop-blur-2xl">
             <div className="flex items-center w-full h-full">
-              <div className="flex flex-row justify-around items-center w-full px-4">
+              <div className="flex flex-row justify-around items-center w-full px-4 gap-x-2">
                 <div className="w-full">
                   <button
                     className="bg-custom-bgButton rounded-full w-full"
