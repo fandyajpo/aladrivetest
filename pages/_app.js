@@ -6,7 +6,6 @@ import Head from "next/head";
 import Router from "next/router";
 
 import { useState } from "react";
-
 //CONTEXT
 import { Logged } from "context/loginType";
 import { DriverType } from "context/driverType";
@@ -17,7 +16,7 @@ import { ButtonType } from "context/buttonType";
 
 import NProgress from "nprogress";
 import { SWRConfig } from "swr";
-// import fetch from "lib/fetchJson";
+
 NProgress.configure({ showSpinner: false });
 Router.events.on("routeChangeStart", (url) => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());

@@ -112,31 +112,14 @@ const ProsesVerif = () => {
         </div>
 
         {/*  */}
-        <div className="w-full">
-          <div className="space-y-6">
+        <div className="w-full pt-8">
+          <div className="space-y-4 ms:space-y-6">
             <div className="flex items-center justify-center">
               <div>
-                {/* <div className="relative">
-                  <div className="absolute top-0">
-                    <svg
-                      width="348"
-                      height="282"
-                      viewBox="0 0 348 282"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M246.658 253.452C307.485 215.286 341.345 161.508 346.704 117.758C348.869 99.748 346.923 77.0755 336.361 58.3333C298.344 -9.37139 214.868 -16.5211 199.753 29.9682C174.936 106.129 148.485 93.4406 66.8382 90.6782C5.01427 88.358 -52.7109 227.639 88.1357 272.634C145.69 290.856 203.268 280.759 246.658 253.452Z"
-                        fill="#F4F7FA"
-                        fillOpacity="0.7"
-                      />
-                    </svg>
-                  </div>
-                </div> */}
                 <div>
                   <svg
                     width="375"
-                    height="377"
+                    height="370"
                     viewBox="0 0 375 377"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -469,25 +452,25 @@ const ProsesVerif = () => {
               </p>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="relative w-full h-auto">
-        <div className="absolute bottom-8 w-full flex flex-col items-center justify-center px-4 space-y-4">
-          <button
-            className="w-full h-12 bg-custom-blue rounded-full"
-            onClick={() => router.push("unauth/login", "unauth/login")}
-          >
-            <p className="text-white font-bold text-s">Login</p>
-          </button>
-          <button
-            className="w-full h-12 bg-custom-bgButton rounded-full"
-            onClick={() => {
-              Log.set.setLogged("daftar");
-              router.push("unauth/daftar", "unauth/daftar");
-            }}
-          >
-            <p className="text-custom-blue font-bold text-s">Daftar</p>
-          </button>
+          <div className="relative w-full h-auto pt-4">
+            <div className="w-full flex flex-col items-center justify-center px-4 space-y-4">
+              <button
+                className="w-full h-12 bg-custom-blue rounded-full"
+                onClick={() => router.push("unauth/login", "unauth/login")}
+              >
+                <p className="text-white font-bold text-s">Login</p>
+              </button>
+              <button
+                className="w-full h-12 bg-custom-bgButton rounded-full"
+                onClick={() => {
+                  Log.set.setLogged("daftar");
+                  router.push("unauth/daftar", "unauth/daftar");
+                }}
+              >
+                <p className="text-custom-blue font-bold text-s">Daftar</p>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </>

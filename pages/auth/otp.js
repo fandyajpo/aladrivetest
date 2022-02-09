@@ -18,7 +18,7 @@ const OTP = () => {
 
   return (
     <>
-      <div className="space-y-8 py-12">
+      <div className="space-y-8 py-12 pb-96">
         <div className="flex flex-col items-center justify-center">
           <p className="text-md font-bold">OTP</p>
           <p className="text-md">Masukkan kode OTP yang dikirim ke</p>
@@ -127,6 +127,7 @@ const OTP = () => {
             />
           </svg>
         }
+        leftAction={() => router.back()}
         bottomButton={"Ok"}
         bottomAction={() => router.push("/auth", "/auth")}
         block={otpData[0].length !== 6}
@@ -135,7 +136,7 @@ const OTP = () => {
             ? "bg-custom-blue text-white"
             : "bg-custom-btnGray text-white"
         }
-        position={"bottom-[310px]"}
+        position={"bottom-60"}
       />
     </>
   );

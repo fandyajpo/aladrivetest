@@ -36,16 +36,16 @@ const Process = () => {
   });
 
   return (
-    <div>
+    <div className="pt-12">
       <animated.div style={Detail} className="relative">
         <div className="absolute ">
           <OrderDetail setShowDetail={setShowDetail} />
         </div>
       </animated.div>
       <div className="w-full h-full px-4">
-        <div className="flex flex-col items-center justify-center w-full overflow-y-auto">
+        <div className="flex flex-col items-center justify-center w-full overflow-y-auto ">
           {Progress.data.progress === "input-outlet-pin" ? (
-            <div className="flex flex-col items-center justify-center py-20">
+            <div className="prosess flex flex-col items-center justify-center pt-12">
               <div>
                 <svg
                   width="250"
@@ -556,7 +556,7 @@ const Process = () => {
               </div>
             </div>
           ) : Progress.data.progress === "proses" ? (
-            <div className="flex flex-col items-center justify-center py-20">
+            <div className="prosess flex flex-col items-center justify-center pt-12">
               <div>
                 <svg
                   width="250"
@@ -1370,7 +1370,7 @@ const Process = () => {
               </div>
             </div>
           ) : Progress.data.progress === "on-the-way" ? (
-            <div className="flex flex-col items-center justify-center py-20">
+            <div className="prosess flex flex-col items-center justify-center pt-12">
               <div>
                 <svg
                   width="250"
@@ -1802,7 +1802,7 @@ const Process = () => {
               </div>
             </div>
           ) : Progress.data.progress === "order-sampai" ? (
-            <div className="flex flex-col items-center justify-center py-20">
+            <div className="prosess flex flex-col items-center justify-center pt-12">
               <div>
                 <svg
                   width="250"
@@ -2165,7 +2165,7 @@ const Process = () => {
               </div>
             </div>
           ) : Progress.data.progress === "done" ? (
-            <div className="flex flex-col items-center justify-center py-20">
+            <div className="prosess flex flex-col items-center justify-center pt-12">
               <div>
                 <svg
                   width="250"
@@ -2730,7 +2730,7 @@ const Process = () => {
             </div>
           ) : null}
         </div>
-        <div>
+        <div className="pb-24 pt-2">
           {showDetail ? (
             <div
               onClick={() => setShowDetail(false)}
@@ -2752,7 +2752,7 @@ const Process = () => {
               onStop={handleStop}
             >
               <div className="w-full h-32 flex items-center justify-center pb-24">
-                <div className="text-center text-custom-te xtGray">
+                <div className="text-center text-custom-textGray">
                   Swipe untuk detail
                 </div>
               </div>

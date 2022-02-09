@@ -4,7 +4,7 @@ import BackNav from "components/footer/backNav";
 const Balance = () => {
   const router = useRouter();
   return (
-    <div>
+    <div className="pb-44">
       <div className="bg-gradient-to-br from-custom-firstBlue to-custom-secondBlue w-full h-44 rounded-b-message">
         <div className="flex flex-col items-center h-36 pt-16 w-full justify-center">
           <div className="text-center text-white">
@@ -95,7 +95,10 @@ const Balance = () => {
           </div>
         </div>
         <div className="">
-          <button className="border rounded-message w-full p-2">
+          <button
+            className="border rounded-message w-full p-2"
+            onClick={() => router.push("ubah-pin", "ubah-pin")}
+          >
             <div className="flex flex-row items-center gap-x-2">
               <div>
                 <svg

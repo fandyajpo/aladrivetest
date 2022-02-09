@@ -4,7 +4,7 @@ import Layout from "components/layout/orderLayout";
 
 const HomeOrder = () => {
   return (
-    <div className="w-full pb-44 px-4">
+    <div className="w-full pb-44 px-4 pt-12">
       <div>
         <p className="text-custom-textGray py-2 text-s">ALA. 08:18, 08 Jul </p>
       </div>

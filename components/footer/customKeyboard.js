@@ -23,9 +23,9 @@ const Keyboard = ({
   return (
     <>
       <div className={`fixed ${position} w-full`}>
-        <div className="flex flex-col items-center gap-y-2 w-full h-full p-2 bg-custom-bgGray pb-12 pt-4">
+        <div className="flex flex-col items-center gap-y-2 w-full h-full p-2 bg-custom-bgGray pb-2 pt-4">
           <div className="w-full h-full flex items-center justify-center gap-2 bg-custom-bgGray">
-            <div className="w-4/12 bg-gray-500 h-14 rounded-md">
+            <div className="w-4/12 bg-gray-500 h-12 rounded-md">
               <button
                 disabled={disableKeyboard}
                 onClick={one}
@@ -34,7 +34,7 @@ const Keyboard = ({
                 1
               </button>
             </div>
-            <div className="w-4/12 bg-gray-500 h-14 rounded-md">
+            <div className="w-4/12 bg-gray-500 h-12 rounded-md">
               <button
                 disabled={disableKeyboard}
                 onClick={two}
@@ -43,7 +43,7 @@ const Keyboard = ({
                 2
               </button>
             </div>
-            <div className="w-4/12 bg-gray-500 h-14 rounded-md">
+            <div className="w-4/12 bg-gray-500 h-12 rounded-md">
               <button
                 disabled={disableKeyboard}
                 onClick={three}
@@ -54,7 +54,7 @@ const Keyboard = ({
             </div>
           </div>
           <div className="w-full h-full flex items-center justify-center gap-2 bg-custom-bgGray">
-            <div className="w-4/12 bg-gray-500 h-14 rounded-md">
+            <div className="w-4/12 bg-gray-500 h-12 rounded-md">
               <button
                 disabled={disableKeyboard}
                 onClick={four}
@@ -63,7 +63,7 @@ const Keyboard = ({
                 4
               </button>
             </div>
-            <div className="w-4/12 bg-gray-500 h-14 rounded-md">
+            <div className="w-4/12 bg-gray-500 h-12 rounded-md">
               <button
                 disabled={disableKeyboard}
                 onClick={five}
@@ -72,7 +72,7 @@ const Keyboard = ({
                 5
               </button>
             </div>
-            <div className="w-4/12 bg-gray-500 h-14 rounded-md">
+            <div className="w-4/12 bg-gray-500 h-12 rounded-md">
               <button
                 disabled={disableKeyboard}
                 onClick={six}
@@ -83,7 +83,7 @@ const Keyboard = ({
             </div>
           </div>
           <div className="w-full h-full flex items-center justify-center gap-2 bg-custom-bgGray">
-            <div className="w-4/12 bg-gray-500 h-14 rounded-md">
+            <div className="w-4/12 bg-gray-500 h-12 rounded-md">
               <button
                 disabled={disableKeyboard}
                 onClick={seven}
@@ -92,7 +92,7 @@ const Keyboard = ({
                 7
               </button>
             </div>
-            <div className="w-4/12 bg-gray-500 h-14 rounded-md">
+            <div className="w-4/12 bg-gray-500 h-12 rounded-md">
               <button
                 disabled={disableKeyboard}
                 onClick={eight}
@@ -101,7 +101,7 @@ const Keyboard = ({
                 8
               </button>
             </div>
-            <div className="w-4/12 bg-gray-500 h-14 rounded-md">
+            <div className="w-4/12 bg-gray-500 h-12 rounded-md">
               <button
                 disabled={disableKeyboard}
                 onClick={nine}
@@ -112,12 +112,12 @@ const Keyboard = ({
             </div>
           </div>
           <div className="w-full h-full flex items-center justify-center gap-2 bg-custom-bgGray">
-            <div className="w-4/12 bg-gray-500 h-14 rounded-md">
+            <div className="w-4/12 bg-custom-bgGray h-12 rounded-md">
               <button className="text-white flex items-center justify-center w-full h-full">
                 +*#
               </button>
             </div>
-            <div className="w-4/12 bg-gray-500 h-14 rounded-md">
+            <div className="w-4/12 bg-gray-500 h-12 rounded-md">
               <button
                 disabled={disableKeyboard}
                 onClick={zero}
@@ -126,7 +126,7 @@ const Keyboard = ({
                 0
               </button>
             </div>
-            <div className="w-4/12 bg-gray-500 h-14 rounded-md">
+            <div className="w-4/12 bg-custom-bgGray h-12 rounded-md">
               <button
                 disabled={disableDelete}
                 onClick={del}

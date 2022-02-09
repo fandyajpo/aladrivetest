@@ -44,7 +44,7 @@ const TarikSaldo = () => {
         inputProps={inputProps}
         title={"Tarik Saldo"}
         bottomButton={"Konfirmasi"}
-        bottomAction={() => alert("FANDY GG")}
+        bottomAction={() => router.push("pin-penarikan", "pin-penarikan")}
         leftAction={() => router.back()}
         leftButton={
           <svg
@@ -61,6 +61,12 @@ const TarikSaldo = () => {
             />
           </svg>
         }
+        classButton={
+          inputProps
+            ? "bg-custom-blue text-white"
+            : "bg-custom-btnGray text-white"
+        }
+        block={!inputProps}
       />
     </div>
   );

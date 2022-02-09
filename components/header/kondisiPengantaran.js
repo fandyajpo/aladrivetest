@@ -181,7 +181,7 @@ const Pengantaran = () => {
         </div>
       ) : null}
       {router.asPath.includes("/auth/order") && (
-        <div className="flex items-center w-full h-full p-4">
+        <div className="flex items-center w-full fixed top-0 bg-custom-bg bg-opacity-70 backdrop-blur-2xl z-10 p-4">
           <div className="flex items-center justify-between w-full">
             <div className="flex items-center gap-x-4">
               <div className="flex items-center">

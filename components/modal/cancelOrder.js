@@ -81,7 +81,7 @@ const CancelOrder = (props) => {
                 <button
                   onClick={(e) => {
                     props.handleCloseCancelOrder(e);
-                    router.push("/", "/");
+                    router.push("/auth", "/auth");
                     Progress.set.setProgress("input-outlet-pin");
                     Order.set.setOrderFound("finding");
                     Types.set.setType("");

@@ -402,12 +402,12 @@ const ProsesVerif = () => {
         </div>
         <div className="relative w-full">
           <div className=" w-full flex flex-col items-center justify-center px-4 space-y-4">
-            <button className="w-full h-12 bg-custom-blue rounded-full">
+            {/* <button className="w-full h-12 bg-custom-blue rounded-full">
               <p className="text-white font-bold text-s">Ok</p>
             </button>
             <button className="w-full h-12 bg-custom-bgButton rounded-full">
               <p className="text-custom-blue font-bold text-s">Coba Lagi</p>
-            </button>
+            </button> */}
             <button
               className="w-full h-12 bg-custom-bgButton rounded-full"
               onClick={() => {

@@ -13,18 +13,21 @@ const Partner = () => {
   return (
     <div className="w-full h-full">
       <div className="w-full h-screen flex items-center justify-center">
-        <button
-          className="bg-blue-500"
-          onClick={() => Driver.set.setIsDriver("partner")}
-        >
-          <p className="text-white">Partner</p>
-        </button>
-        <button
-          className="bg-blue-500"
-          onClick={() => Driver.set.setIsDriver("in-house")}
-        >
-          <p className="text-white">In House</p>
-        </button>
+        <div className="flex flex-col">
+          <p>Kondisi Driver</p>
+          <button
+            className="bg-red-500"
+            onClick={() => Driver.set.setIsDriver("partner")}
+          >
+            <p className="text-white">Partner</p>
+          </button>
+          <button
+            className="bg-blue-500"
+            onClick={() => Driver.set.setIsDriver("in-house")}
+          >
+            <p className="text-white">In House</p>
+          </button>
+        </div>
         {Online.data.online ? (
           <div className="flex flex-col items-center">
             <svg

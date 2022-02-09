@@ -148,18 +148,18 @@ const ProsesVerif = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="relative w-full h-auto">
-        <div className="absolute bottom-8 w-full flex flex-row items-center justify-center px-4">
-          <button className="w-full h-12 bg-custom-bgButton rounded-full">
-            <p className="text-custom-blue font-bold text-s">Batal</p>
-          </button>
-          <button
-            className="w-full h-12 bg-custom-blue rounded-full"
-            onClick={() => router.push("/auth/otp", "/auth/otp")}
-          >
-            <p className="text-white font-bold text-s">Login</p>
-          </button>
+        <div className="relative w-full h-auto pt-28">
+          <div className="w-full flex flex-row items-center justify-center px-4">
+            <button className="w-full h-12 bg-custom-bgButton rounded-full">
+              <p className="text-custom-blue font-bold text-s">Batal</p>
+            </button>
+            <button
+              className="w-full h-12 bg-custom-blue rounded-full"
+              onClick={() => router.push("/auth/otp", "/auth/otp")}
+            >
+              <p className="text-white font-bold text-s">Login</p>
+            </button>
+          </div>
         </div>
       </div>
     </>

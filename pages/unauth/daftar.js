@@ -92,7 +92,7 @@ const EmblaCarousel = ({ slides }) => {
     <div
       className={`w-full h-full ${
         terms ? "pt-4" : "pt-20"
-      } overflow-hidden bg-white duration-500 z-10`}
+      } overflow-hidden bg-white duration-500 z-10 pb-64`}
     >
       <animated.div style={TERMS} className="relative ">
         <div className="absolute z-10 top-0">

@@ -17,7 +17,7 @@ const Profile = () => {
   const handleCloseChangePhoto = () => setChangePhoto(false);
   const router = useRouter();
   return (
-    <div className="w-full h-full px-4 overflow-hidden">
+    <div className="w-full h-full px-4 overflow-hidden pb-24">
       <ChangePhoto
         changePhoto={changePhoto}
         handleCloseChangePhoto={handleCloseChangePhoto}

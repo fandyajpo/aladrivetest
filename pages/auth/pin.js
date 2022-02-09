@@ -52,8 +52,8 @@ const Pin = () => {
 
   return (
     <>
-      <div className="w-full h-full">
-        <div className="flex flex-col items-center justify-center w-full h-full py-20 gap-y-16">
+      <div className="w-full h-full pb-64">
+        <div className="flex flex-col items-center justify-center w-full h-full pt-8 pb-2 gap-y-16">
           <div className="space-y-2 text-center">
             <p className="text-2xl font-bold">Pin Outlet</p>
             <p className="text-md">

@@ -131,7 +131,7 @@ const TarikSaldo = () => {
         nama={nama}
         title={"Ubah Rekening"}
         bottomButton={"Konfirmasi"}
-        bottomAction={() => router.push("aGG")}
+        bottomAction={() => router.push("pin-ganti-rekening")}
         leftAction={() => router.back()}
         leftButton={
           <svg

@@ -8,7 +8,7 @@ const RiwayatPenarikan = (props) => {
   const [history, setHistory] = useState("ada"); // value belum-ada && ada
 
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full pb-44">
       <div>
         {history === "ada" ? (
           <>

@@ -5,7 +5,7 @@ const LoadingProsesGantiRekening = () => {
   return (
     <>
       <div className="w-full h-full p-4 space-y-28">
-        <div className="w-full border p-2 flex flex-row items-center justify-center rounded-message">
+        <div className="w-full border p-2 flex flex-row gap-x-2 justify-center rounded-message">
           <div>
             <svg
               width="24"
