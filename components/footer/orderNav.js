@@ -8,7 +8,7 @@ import { DriverType } from "context/driverType";
 //MODAL
 import PickUp from "components/modal/pick-up";
 import OrderSampai from "components/modal/orderSampai";
-import Refuce from "components/Modal/refuse";
+import Refuce from "components/modal/refuse";
 
 const Pengantaran = ({ CloseDetail }) => {
   const router = useRouter();
