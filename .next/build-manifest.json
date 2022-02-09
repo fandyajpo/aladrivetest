@@ -30,20 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/auth.js"
     ],
-    "/auth/order": [
+    "/auth/chat-customer": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/auth/order.js"
+      "static/chunks/pages/auth/chat-customer.js"
     ],
     "/auth/order/home-semua-proses": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/auth/order/home-semua-proses.js"
-    ],
-    "/auth/riwayat": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/auth/riwayat.js"
     ]
   },
   "ampFirstPages": []

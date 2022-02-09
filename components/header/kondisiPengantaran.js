@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from "react";
 //MODAL
 import OnlineModal from "components/modal/online";
-import CallDriver from "components/modal/callDriver";
+import CallCustomer from "components/modal/callCustomer";
 import { useRouter } from "next/router";
 
 //CONTEXt
@@ -31,16 +31,16 @@ const Pengantaran = () => {
   const handleOpenOnlineModal = () => setOnlineModal(true);
   const handleCloseOnlineModal = () => setOnlineModal(false);
 
-  const [callDriver, setCallDriver] = useState(false);
-  const handleOpenDriver = () => setCallDriver(true);
-  const handleCloseDriver = () => setCallDriver(false);
+  const [callCustomer, setCallCustomer] = useState(false);
+  const handleOpenCustomer = () => setCallCustomer(true);
+  const handleCloseCustomer = () => setCallCustomer(false);
 
   return (
     <div>
-      <CallDriver
+      <CallCustomer
         title={"Telfon Customer?"}
-        callDriver={callDriver}
-        handleCloseDriver={handleCloseDriver}
+        callCustomer={callCustomer}
+        handleCloseCustomer={handleCloseCustomer}
       />
       <OnlineModal
         title={"Offline"}
@@ -237,7 +237,7 @@ const Pengantaran = () => {
             ) : Order.data.orderFound === "get" ? (
               <div className="flex items-center gap-x-2">
                 <div>
-                  <button onClick={handleOpenDriver}>
+                  <button onClick={handleOpenCustomer}>
                     <svg
                       width="32"
                       height="32"

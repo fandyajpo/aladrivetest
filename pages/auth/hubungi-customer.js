@@ -1,7 +1,10 @@
+import { useRouter } from "next/router";
+
 const HubungiDriver = () => {
+  const router = useRouter();
   return (
     <div className="w-full h-full flex items-center justify-center p-12">
-      <div className="space-y-72 flex items-center justify-center flex-col">
+      <div className="space-y-24 flex items-center justify-center flex-col">
         <div>
           <div>
             <svg
@@ -48,8 +51,8 @@ const HubungiDriver = () => {
             </div>
           </div>
         </div>
-        <div className="space-y-24">
-          <div className="flex items-center justify-center">
+        <div className="space-y-4 flex flex-col items-center justify-between h-64">
+          <div className="flex justify-center items-center">
             <svg
               width="60"
               height="60"
@@ -80,65 +83,27 @@ const HubungiDriver = () => {
             </svg>
           </div>
           <div>
-            {/* <svg
-              width="60"
-              height="60"
-              viewBox="0 0 60 60"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M30 60C46.569 60 60 46.569 60 30C60 13.431 46.569 0 30 0C13.431 0 0 13.431 0 30C0 46.569 13.431 60 30 60Z"
-                fill="#FD797A"
-              />
-              <path
-                d="M22.9287 22.9287L37.0712 37.0712M37.0712 22.9287L22.9287 37.0712L37.0712 22.9287Z"
-                stroke="white"
-                strokeWidth="4"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg> */}
-          </div>
-          <div className="w-64">
-            <div className="flex flex-row items-center justify-between">
-              <div>
-                <svg
-                  width="60"
-                  height="60"
-                  viewBox="0 0 60 60"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M30 60C46.569 60 60 46.569 60 30C60 13.431 46.569 0 30 0C13.431 0 0 13.431 0 30C0 46.569 13.431 60 30 60Z"
-                    fill="#61DA9D"
-                  />
-                  <path
-                    d="M24.7177 18.5046L25.9551 18.109C27.1155 17.7387 28.3552 18.3379 28.852 19.5086L29.841 21.8408C30.2711 22.8563 30.0319 24.0512 29.2499 24.7941L27.0706 26.8618C27.2052 28.0992 27.6215 29.3171 28.3184 30.5154C28.9802 31.6747 29.8679 32.6895 30.9289 33.4997L33.5464 32.6257C34.5377 32.2956 35.6187 32.6763 36.2259 33.5698L37.6439 35.6513C38.3511 36.691 38.2235 38.1239 37.346 39.0048L36.4064 39.9489C35.4703 40.8885 34.1329 41.2301 32.8966 40.8436C29.9756 39.9328 27.2926 37.2292 24.8431 32.7326C22.3901 28.2292 21.5241 24.4065 22.2463 21.2693C22.5499 19.9491 23.4895 18.8968 24.7177 18.5046V18.5046Z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-              <div>
-                <svg
-                  width="60"
-                  height="60"
-                  viewBox="0 0 60 60"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M30 60C46.569 60 60 46.569 60 30C60 13.431 46.569 0 30 0C13.431 0 0 13.431 0 30C0 46.569 13.431 60 30 60Z"
-                    fill="#FD797A"
-                  />
-                  <path
-                    d="M41.7069 33.558L41.9435 32.2653C42.0546 31.621 42.0013 30.959 41.7885 30.3407C41.5757 29.7224 41.2103 29.1679 40.7262 28.7284C38.3739 26.5681 34.6998 25.4932 29.7022 25.5C24.7131 25.5069 21.1504 26.5904 19.0142 28.7489C18.1089 29.6628 17.7798 31.0189 18.1484 32.3065L18.5187 33.5992C18.865 34.8062 20.0343 35.6137 21.2516 35.4851L23.693 35.2296C24.2005 35.1797 24.6773 34.9636 25.0493 34.6148C25.4213 34.266 25.6678 33.8041 25.7503 33.3009L26.2201 30.5509C27.4003 29.9985 28.6824 29.6973 29.9851 29.6662C31.3343 29.625 32.5705 29.8428 33.6917 30.3211L34.4495 33.2597C34.7221 34.3175 35.6325 35.1079 36.7041 35.2142L39.1592 35.4611C39.746 35.5272 40.336 35.3672 40.809 35.0137C41.282 34.6601 41.6025 34.1396 41.7052 33.558H41.7069Z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-            </div>
+            <button onClick={() => router.back()}>
+              <svg
+                width="60"
+                height="60"
+                viewBox="0 0 60 60"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M30 60C46.569 60 60 46.569 60 30C60 13.431 46.569 0 30 0C13.431 0 0 13.431 0 30C0 46.569 13.431 60 30 60Z"
+                  fill="#FD797A"
+                />
+                <path
+                  d="M22.9287 22.9287L37.0712 37.0712M37.0712 22.9287L22.9287 37.0712L37.0712 22.9287Z"
+                  stroke="white"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
           </div>
         </div>
       </div>
