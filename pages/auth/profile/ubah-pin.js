@@ -23,7 +23,7 @@ const TarikSaldo = () => {
             <p className="text-md font-bold">Pin Lama</p>
           </div>
           <input
-            placeholder="Nomor Rekening"
+            placeholder="Pin Lama"
             onChange={handlePinLama}
             value={pinLama}
             className="w-full p-1 placeholder-custom-textGray bg-custom-layer border outline-none border-custom-border  rounded-message"
@@ -60,7 +60,7 @@ const TarikSaldo = () => {
             </p>
           </div>
           <input
-            placeholder="Atas Nama Bank"
+            placeholder="Pin Baru"
             onChange={handlePinBaru}
             value={pinBaru}
             className="w-full p-1 placeholder-custom-textGray bg-custom-layer border outline-none border-custom-border  rounded-message"
@@ -71,7 +71,7 @@ const TarikSaldo = () => {
             <p className="text-md font-bold">Ulangi</p>
           </div>
           <input
-            placeholder="Atas Nama Bank"
+            placeholder="Ulangi Pin"
             onChange={handleUlangi}
             value={ulangi}
             className="w-full p-1 placeholder-custom-textGray bg-custom-layer border outline-none border-custom-border  rounded-message"
