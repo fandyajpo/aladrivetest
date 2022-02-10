@@ -145,7 +145,10 @@ const Profile = () => {
       {Driver.data.isDriver === "partner" ? (
         <div className="py-4 space-y-4">
           <div>
-            <div className="bg-gradient-to-r from-custom-firstBlue to-custom-secondBlue flex flex-row justify-between w-full p-4 rounded-message">
+            <button
+              onClick={() => router.push("profile/saldo", "profile/saldo")}
+              className="text-left bg-gradient-to-r from-custom-firstBlue to-custom-secondBlue flex flex-row justify-between w-full p-4 rounded-message"
+            >
               <div className="w-full">
                 <div className="flex flex-row items-center gap-x-2">
                   <div>
@@ -169,34 +172,30 @@ const Profile = () => {
                 </div>
               </div>
               <div>
-                <button
-                  onClick={() => router.push("profile/saldo", "profile/saldo")}
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="12"
-                      cy="12"
-                      r="12"
-                      fill="#4391EF"
-                      fillOpacity="0.1"
-                    />
-                    <path
-                      d="M9 18L15 12L9 6"
-                      stroke="white"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </button>
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="12"
+                    fill="#4391EF"
+                    fillOpacity="0.1"
+                  />
+                  <path
+                    d="M9 18L15 12L9 6"
+                    stroke="white"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </div>
-            </div>
+            </button>
           </div>
           <div className="flex flex-row items-center w-full justify-between gap-x-2">
             <div className="flex flex-col items-center bg-custom-bgButton w-1/2 rounded-message py-2">

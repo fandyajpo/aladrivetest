@@ -1,5 +1,5 @@
 /*SENIN 7 JAN 2022 */
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback, useRef } from "react";
 import BackNav from "components/footer/backNav";
 import { useRouter } from "next/router";
 import useEmblaCarousel from "embla-carousel-react";
@@ -28,17 +28,28 @@ const EmblaCarousel = ({ slides }) => {
     setNextBtnEnabled(embla.canScrollNext());
   }, [embla, setSelectedIndex]);
 
+  const refer = useRef();
+  const scrollingIntoView = () => {
+    setTimeout(() => {
+      refer.current.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
+    }, 500);
+  };
+  const [terms, setTerms] = useState(false);
+  const handleOpenTerms = () => setTerms(true);
+  const handleCloseTerms = () => setTerms(false);
+
   useEffect(() => {
+    selectedIndex === 1 && scrollingIntoView();
+    terms ? scrollingIntoView() : null;
     if (!embla) return;
     onSelect();
     setScrollSnaps(embla.scrollSnapList());
     console.log(selectedIndex);
     embla.on("select", onSelect);
   }, [embla, setScrollSnaps, onSelect, selectedIndex]);
-
-  const [terms, setTerms] = useState(false);
-  const handleOpenTerms = () => setTerms(true);
-  const handleCloseTerms = () => setTerms(false);
 
   const [exitSign, setExitSign] = useState(false);
   const handleOpenExit = () => setExitSign(true);
@@ -83,7 +94,7 @@ const EmblaCarousel = ({ slides }) => {
 
   const TERMS = useSpring({
     to: {
-      // zIndex: terms ? 999 : 0,
+      scale: terms ? 1 : 0,
       y: terms ? 0 : 1000,
     },
   });
@@ -96,7 +107,7 @@ const EmblaCarousel = ({ slides }) => {
     >
       <animated.div style={TERMS} className="relative ">
         <div className="absolute z-10 top-0">
-          <TermsAndCondition />
+          <TermsAndCondition terms={terms} />
         </div>
       </animated.div>
       <ExitSign
@@ -132,7 +143,8 @@ const EmblaCarousel = ({ slides }) => {
           </div>
         </div>
       )}
-      <div className="embla">
+      <div ref={refer} />
+      <div className="embla pt-4">
         <div className="embla__viewport" ref={viewportRef}>
           <div className="embla__container">
             <div className="embla__slide bg-white">
@@ -506,9 +518,23 @@ const NextButton = ({ enabled, onClick }) => (
   </button>
 );
 
-const TermsAndCondition = () => {
+const TermsAndCondition = ({ terms }) => {
+  const topTerms = useRef();
+
+  const scrollTerms = () => {
+    setTimeout(() => {
+      topTerms.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }, 500);
+  };
+  useEffect(() => {
+    terms ? scrollTerms() : null;
+  }, [terms]);
+
   return (
-    <div className="w-full h-screen p-4 space-y-4 bg-white">
+    <div className="w-full h-screen p-4 space-y-4 bg-white" ref={topTerms}>
       <div>
         <p className="text-2xl text-custom-black font-bold">
           Terms and Condition

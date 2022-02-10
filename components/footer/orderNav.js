@@ -102,7 +102,10 @@ const Pengantaran = ({ CloseDetail }) => {
             </div>
           </div>
         </div>
-      ) : Types.data.type === "input-pin" ? (
+      ) : Types.data.type === "input-pin" &&
+        !router.asPath.includes("riwayat") &&
+        !router.asPath.includes("outlet") &&
+        !router.asPath.includes("profile") ? (
         <div className="relative">
           <div className="fixed bottom-20 w-full h-20 bg-custom-bg bg-opacity-70 backdrop-blur-2xl">
             <div className="flex items-center w-full h-full">
@@ -119,7 +122,10 @@ const Pengantaran = ({ CloseDetail }) => {
             </div>
           </div>
         </div>
-      ) : Types.data.type === "pick-up" ? (
+      ) : Types.data.type === "pick-up" &&
+        !router.asPath.includes("riwayat") &&
+        !router.asPath.includes("outlet") &&
+        !router.asPath.includes("profile") ? (
         <div className="relative">
           <div className="fixed bottom-20 w-full h-20 bg-custom-bg bg-opacity-70 backdrop-blur-2xl">
             <div className="flex items-center w-full h-full">
@@ -140,7 +146,10 @@ const Pengantaran = ({ CloseDetail }) => {
             </div>
           </div>
         </div>
-      ) : Types.data.type === "sampai" ? (
+      ) : Types.data.type === "sampai" &&
+        !router.asPath.includes("riwayat") &&
+        !router.asPath.includes("outlet") &&
+        !router.asPath.includes("profile") ? (
         <div className="relative">
           <div className="fixed bottom-20 w-full h-20 bg-custom-bg bg-opacity-70 backdrop-blur-2xl">
             <div className="flex items-center w-full h-full">
@@ -157,7 +166,10 @@ const Pengantaran = ({ CloseDetail }) => {
             </div>
           </div>
         </div>
-      ) : Types.data.type === "selesai" ? (
+      ) : Types.data.type === "selesai" &&
+        !router.asPath.includes("riwayat") &&
+        !router.asPath.includes("outlet") &&
+        !router.asPath.includes("profile") ? (
         <div className="relative">
           <div className="fixed bottom-20 w-full h-20 bg-custom-bg bg-opacity-70 backdrop-blur-2xl">
             <div className="flex items-center w-full h-full">
@@ -178,7 +190,10 @@ const Pengantaran = ({ CloseDetail }) => {
             </div>
           </div>
         </div>
-      ) : Types.data.type === "done" ? (
+      ) : Types.data.type === "done" &&
+        !router.asPath.includes("riwayat") &&
+        !router.asPath.includes("outlet") &&
+        !router.asPath.includes("profile") ? (
         <div className="relative">
           <div className="fixed bottom-20 w-full h-20 bg-custom-bg bg-opacity-70 backdrop-blur-2xl">
             <div className="flex items-center w-full h-full">
