@@ -30,20 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/auth.js"
     ],
-    "/auth/profile/pin": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/auth/profile/pin.js"
-    ],
     "/auth/profile/reset-pin": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/auth/profile/reset-pin.js"
-    ],
-    "/auth/profile/reset-pin-otp": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/auth/profile/reset-pin-otp.js"
     ]
   },
   "ampFirstPages": []
