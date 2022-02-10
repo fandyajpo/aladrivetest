@@ -475,7 +475,7 @@ const Outlet = () => {
               </div>
               <div>
                 <p className="text-md font-bold text-custom-black">
-                  KONTOo;yltrefl
+                  Rumah Makan Fandot
                 </p>
                 <div className="flex flex-row items-center">
                   <svg
@@ -518,13 +518,13 @@ const Outlet = () => {
           </div>
           <div className="flex flex-row pl-12 space-x-2">
             <div className="bg-custom-layer">
-              <p className="text-1xs p-1">KONTOwpgd</p>
+              <p className="text-1xs p-1">Nasi</p>
             </div>
             <div className="bg-custom-layer">
-              <p className="text-1xs p-1">ANIJIGn</p>
+              <p className="text-1xs p-1">Coffee</p>
             </div>
             <div className="bg-custom-layer w-auto">
-              <p className="text-1xs p-1">kxwneirh</p>
+              <p className="text-1xs p-1">Noodle</p>
             </div>
           </div>
           <div className="flex flex-row justify-between pl-12">
@@ -545,7 +545,7 @@ const Outlet = () => {
               </div>
               <div>
                 <p className="text-md font-bold text-custom-black">
-                  KONTOo;yltrefl
+                  Rumah Makan Fandot
                 </p>
                 <div className="flex flex-row items-center">
                   <svg
@@ -588,13 +588,13 @@ const Outlet = () => {
           </div>
           <div className="flex flex-row pl-12 space-x-2">
             <div className="bg-custom-layer">
-              <p className="text-1xs p-1">KONTOwpgd</p>
+              <p className="text-1xs p-1">Nasi</p>
             </div>
             <div className="bg-custom-layer">
-              <p className="text-1xs p-1">ANIJIGn</p>
+              <p className="text-1xs p-1">Coffee</p>
             </div>
             <div className="bg-custom-layer w-auto">
-              <p className="text-1xs p-1">kxwneirh</p>
+              <p className="text-1xs p-1">Noodle</p>
             </div>
           </div>
           <div className="flex flex-row justify-between pl-12">
@@ -610,7 +610,7 @@ const Outlet = () => {
               </div>
               <div>
                 <p className="text-md font-bold text-custom-black">
-                  KONTOo;yltrefl
+                  Rumah Makan Fandot
                 </p>
                 <div className="flex flex-row items-center">
                   <svg
@@ -653,13 +653,13 @@ const Outlet = () => {
           </div>
           <div className="flex flex-row pl-12 space-x-2">
             <div className="bg-custom-layer">
-              <p className="text-1xs p-1">KONTOwpgd</p>
+              <p className="text-1xs p-1">Nasi</p>
             </div>
             <div className="bg-custom-layer">
-              <p className="text-1xs p-1">ANIJIGn</p>
+              <p className="text-1xs p-1">Coffee</p>
             </div>
             <div className="bg-custom-layer w-auto">
-              <p className="text-1xs p-1">kxwneirh</p>
+              <p className="text-1xs p-1">Noodle</p>
             </div>
           </div>
           <div className="flex flex-row justify-between pl-12">

@@ -25,10 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/auth/profile/ubah-pin": [
+    "/auth/outlet": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/auth/profile/ubah-pin.js"
+      "static/chunks/pages/auth/outlet.js"
+    ],
+    "/auth/outlet/add-partner": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/auth/outlet/add-partner.js"
+    ],
+    "/auth/outlet/permintaan-bergabung": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/auth/outlet/permintaan-bergabung.js"
     ]
   },
   "ampFirstPages": []

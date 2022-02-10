@@ -137,7 +137,7 @@ const Profile = () => {
             </svg>
           </button>
           <div className="text-center">
-            <p className="text-md font-bold text-custom-black">Bapakkao</p>
+            <p className="text-md font-bold text-custom-black">Ghean Anunos</p>
             <p className="text-custom-black">014193182736327</p>
           </div>
         </div>
