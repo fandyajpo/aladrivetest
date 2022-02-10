@@ -25,20 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/auth/outlet": [
+    "/unauth": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/auth/outlet.js"
+      "static/chunks/pages/unauth.js"
     ],
-    "/auth/outlet/add-partner": [
+    "/unauth/daftar": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/auth/outlet/add-partner.js"
+      "static/chunks/pages/unauth/daftar.js"
     ],
-    "/auth/outlet/permintaan-bergabung": [
+    "/unauth/login": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/auth/outlet/permintaan-bergabung.js"
+      "static/chunks/pages/unauth/login.js"
     ]
   },
   "ampFirstPages": []

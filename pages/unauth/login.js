@@ -150,7 +150,10 @@ const ProsesVerif = () => {
         </div>
         <div className="relative w-full h-auto pt-28">
           <div className="w-full flex flex-row items-center justify-center px-4">
-            <button className="w-full h-12 bg-custom-bgButton rounded-full">
+            <button
+              className="w-full h-12 bg-custom-bgButton rounded-full"
+              onClick={() => router.back()}
+            >
               <p className="text-custom-blue font-bold text-s">Batal</p>
             </button>
             <button
