@@ -69,7 +69,7 @@ const PinPenarikan = () => {
           />
         </div>
         <div className="flex flex-col items-center space-y-2">
-          <button>
+          <button onClick={() => router.push("reset-pin-otp")}>
             <svg
               width="96"
               height="24"

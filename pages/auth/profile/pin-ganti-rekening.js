@@ -27,7 +27,7 @@ const PinPenarikan = () => {
       <div className="space-y-12 py-12 pb-96">
         <div className="flex flex-col items-center justify-center">
           <p className="text-md font-bold">Pin Verifikasi</p>
-          <p className="text-md">Masukan pin untuk penarikan</p>
+          <p className="text-md">Masukan pin untuk perubahan</p>
         </div>
 
         <div className="flex flex-row items-center justify-center gap-x-6">
@@ -75,7 +75,7 @@ const PinPenarikan = () => {
           />
         </div>
         <div className="flex flex-col items-center space-y-2">
-          <button>
+          <button onClick={() => router.push("reset-pin-otp")}>
             <svg
               width="96"
               height="24"
